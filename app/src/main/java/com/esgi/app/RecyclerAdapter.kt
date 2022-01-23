@@ -20,6 +20,8 @@ class RecyclerAdapter(private val products: Array<Product>, private val listener
         Picasso.get().load(products[position].url).into(holder.itemImage)
         holder.itemNameText.text = products[position].nom
         holder.itemMarkText.text = products[position].marque
+        holder.itemnutriscoreText.text = products[position].nutriscore
+        holder.itemcaloriesText.text = products[position].calories
         holder.itemView.setOnClickListener{
             listener.onProductClicked(position)
         }
@@ -33,11 +35,15 @@ class RecyclerAdapter(private val products: Array<Product>, private val listener
         var itemImage: ImageView
         var itemNameText: TextView
         var itemMarkText: TextView
+        var itemnutriscoreText: TextView
+        var itemcaloriesText: TextView
 
         init {
             itemImage = itemView.findViewById(R.id.imageView)
             itemNameText = itemView.findViewById(R.id.title)
             itemMarkText = itemView.findViewById(R.id.subtitle)
+            itemnutriscoreText =  itemView.findViewById(R.id.nutrition_score)
+            itemcaloriesText = itemView.findViewById(R.id.calory_score)
         }
     }
 

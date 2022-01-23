@@ -5,6 +5,8 @@
       <map>
         <entry key="..\:/ESGI-TP/app/src/main/res/drawable/ic_nav_bar_bookmarks.xml" value="0.14375" />
         <entry key="..\:/ESGI-TP/app/src/main/res/layout/activity_main.xml" value="0.13240740740740742" />
+        <entry key="..\:/ESGI-TP/app/src/main/res/layout/fragment_details.xml" value="0.12962962962962962" />
+        <entry key="..\:/ESGI-TP/app/src/main/res/layout/fragment_product_details.xml" value="0.12962962962962962" />
         <entry key="..\:/ESGI-TP/app/src/main/res/layout/fragment_product_details_nutrition.xml" value="0.13240740740740742" />
         <entry key="..\:/Users/nelsf/OneDrive/Documents/Master1/ESGI-TP/app/src/main/res/drawable/ic_calories.xml" value="0.12129629629629629" />
         <entry key="..\:/Users/nelsf/OneDrive/Documents/Master1/ESGI-TP/app/src/main/res/drawable/ic_empty_saved.xml" value="0.12129629629629629" />
